@@ -10,7 +10,7 @@ Script By NorthVPN
 - MongoDB
 - Vnstat
 - Web Server
-- Squid Proxy Port 8080,8000,80"
+- Squid Proxy Port 8080,8000,80
 
 **TimeZone**   :  Thailand
 
