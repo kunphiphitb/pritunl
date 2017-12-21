@@ -62,6 +62,9 @@ sed -i 's/Internal/Internet/g' config.php
 sed -i '/SixXS IPv6/d' config.php
 cd
 
+# สคริปต์ควบคุมเเบนวิธ VPS
+apt-get install nano
+
 # About
 clear
 echo "Script By North ^_^"
