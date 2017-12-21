@@ -10,7 +10,7 @@ Script ini hanya mengandungi
 - MongoDB
 - Vnstat
 - Web Server
-- Squid Proxy Port 7166,60000"
+- Squid Proxy Port 8080,8000,80"
 
 **TimeZone**   :  Thailand
 
@@ -23,7 +23,6 @@ wget https://raw.githubusercontent.com/zero9911/pritunl/master/debian8.sh
 chmod +x debian8.sh
 ./debian8.sh
 ```
-
 
 Ubuntu 14.xx
 ```
