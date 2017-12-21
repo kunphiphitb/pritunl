@@ -26,8 +26,8 @@ sudo ufw allow 22,80,81,222,443,8080,9700,60000/tcp
 sudo ufw allow 22,80,81,222,443,8080,9700,60000/udp
 sudo yes | ufw enable
 
-# Change to Time GMT+8
-ln -fs /usr/share/zoneinfo/Asia/Kuala_Lumpur /etc/localtime
+# Change to Time GMT+7
+ln -fs /usr/share/zoneinfo/Asia/Bangkok /etc/localtime
 
 # Install Web Server
 apt-get -y install nginx php5-fpm php5-cli
@@ -71,7 +71,7 @@ echo "-Vnstat"
 echo "-Web Server"
 echo "-Squid Proxy Port 7166,60000"
 echo "BY MKSSHVPN"
-echo "TimeZone   :  Malaysia"
+echo "TimeZone   :  Thailand"
 echo "Vnstat     :  http://$MYIP:81/vnstat"
 echo "Pritunl    :  https://$MYIP"
 echo "Sila login ke pritunl untuk proceed step seterusnya"
